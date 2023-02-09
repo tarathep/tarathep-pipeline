@@ -57,6 +57,6 @@ jobs:
       with:
         token: ${{ secrets.WORKFLOW_TOKEN }}
         repository: ${{ env.REPOSITORY }}
-        event-type: <username>-tutorial-be-dast-sit
+        event-type: tarathep-tutorial-be-dast-sit
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
 
